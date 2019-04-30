@@ -1,1 +1,2 @@
-# fe-techdegree-project-2
+# Front End Techdegree Project 2
+
