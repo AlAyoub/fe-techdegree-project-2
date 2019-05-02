@@ -1,0 +1,138 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  body {
+    background-color: #f3f3f3;
+
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+  ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+   color: #3d3d3d;
+   font-size: 1.25em;
+   font-weight: bold;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+   background-color: #f8f8f8;
+
+  }
+
+li a {
+  text-align: center;
+  color: #464444;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#student-name {
+  font-size: 2.5em;
+  font-weight: bold;
+  background-color: #f3f3f3;
+}
+
+#profile-image {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 75%;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-size: 1.4em;
+  text-align: center;
+  color: #a0a0a0;
+  width: 94%;
+}
+
+#portfolio {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+#contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+p a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p > a:active {
+  color: #3d3d3d;
+}
+
+.images {
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #7e7e7e;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #666666;
+}
+
+#phone-and-email {
+  padding-top: 40px;
+  padding-bottom: 40px;  
+}
+
+#student-footer {
+  float: left;
+  display: inline;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f3f3f3;
+}
+
+#back-to-top {
+  float: right;
+  display: inline;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f3f3f3;
+}
+
+hr {
+  display: block; 
+  height: 1px;
+    border: 0; 
+    border-top: 1px solid #dadada;
+    margin: 1em 0; 
+    padding: 0;
+}
