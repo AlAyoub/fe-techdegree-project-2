@@ -12,6 +12,11 @@
   .main-nav {
     width: 100%;
   }
+
+  nav {
+    text-align: center;
+  }
+
   ol, ul {
     margin: 0;
     padding: 0;
@@ -106,6 +111,7 @@ h4 {
   color: #666666;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 
 #phone-and-email {
@@ -132,8 +138,8 @@ h4 {
 }
 
 hr {
-  display: block; 
-  height: 1px;
+    display: block; 
+    height: 1px;
     border: 0; 
     border-top: 1px solid #dadada;
     margin: 1em 0; 
@@ -143,3 +149,26 @@ hr {
 a:link {
   color: #7e7e7e;
 } 
+
+
+
+
+/*  ===================================
+            Media Queries
+======================================  */
+
+@media (min-width: 768px) {
+  
+  div li {
+    display: inline;
+    text-align: center;   
+  }
+
+  ul {
+    width: 400px;
+    margin: 10px auto;
+  }
+
+
+
+}
