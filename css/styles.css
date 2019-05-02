@@ -26,7 +26,6 @@
    padding: 10px;
    margin: 10px;
    background-color: #f8f8f8;
-
   }
 
 li a {
@@ -45,7 +44,7 @@ li a {
 #profile-image {
   padding-top: 30px;
   padding-bottom: 30px;
-  width: 75%;
+  width: 90%;
 }
 
 .wrapper {
@@ -61,25 +60,25 @@ li a {
 }
 
 p {
-  font-size: 1.4em;
+  font-size: .95em;
   text-align: center;
   color: #a0a0a0;
-  width: 94%;
+  width: 100%;
 }
 
 #portfolio {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 40px;
   text-align: center;
-  margin: auto;
-  background-color: #ffffff;
+  margin-top: 60px;
+  background-color: #f7f7f7;
+
 }
 
 #contact {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
-  margin: auto;
 }
 
 p a {
@@ -92,39 +91,43 @@ p > a:active {
 }
 
 .images {
-  width: 100%;
+  width: 90%;
   margin: auto;
   padding-top: 40px;
 }
 
 h2 {
-  font-weight: 600;
-  color: #7e7e7e;
+  font-weight: 500;
+  color: #727272;
   padding-top: 10px;
 }
 
-h3 {
+h4 {
   color: #666666;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #phone-and-email {
-  padding-top: 40px;
-  padding-bottom: 40px;  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  word-spacing: 20px;  
 }
 
 #student-footer {
   float: left;
   display: inline;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: .9em;
+  padding-top: 10px;
+  padding-bottom: 20px;
   background-color: #f3f3f3;
 }
 
 #back-to-top {
   float: right;
   display: inline;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: .9em;
+  padding-top: 10px;
   background-color: #f3f3f3;
 }
 
@@ -136,3 +139,7 @@ hr {
     margin: 1em 0; 
     padding: 0;
 }
+
+a:link {
+  color: #7e7e7e;
+} 
