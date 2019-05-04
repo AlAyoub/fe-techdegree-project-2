@@ -120,8 +120,7 @@ h4 {
 
 #phone-and-email {
   padding-top: 15px;
-  padding-bottom: 15px;
-  word-spacing: 20px;  
+  padding-bottom: 15px; 
 }
 
 #student-footer {
@@ -130,6 +129,14 @@ h4 {
   font-size: .9em;
   padding-top: 10px;
   padding-bottom: 20px;
+  background-color: #f3f3f3;
+}
+
+.footer-links {
+  float: right;
+  display: inline;
+  font-size: .9em;
+  padding-top: 10px;
   background-color: #f3f3f3;
 }
 
@@ -161,6 +168,21 @@ a:link {
             Media Queries
 ======================================  */
 
+@media (max-width: 320px) {
+ 
+  #home-footer, #portoflio-footer, #contact-footer {
+    display: none;
+    visibility: hidden;
+    }
+  }
+  
+@media (min-width: 320px) and (max-width: 767px) {
+  #home-footer, #portoflio-footer, #contact-footer {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 @media (min-width: 768px) {
   
   div li {
@@ -186,7 +208,6 @@ a:link {
     float: left;
   }
 
-
   .column {
     display: inline-block;
     width: 50%;
@@ -194,6 +215,15 @@ a:link {
     vertical-align: top;
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  #contact-text {
+    width: 60%;
+    display: inline-block;
+  }
+
+  #back-to-top {
+    visibility: hidden;
   }
 
 
