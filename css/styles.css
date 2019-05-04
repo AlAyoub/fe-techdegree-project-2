@@ -107,6 +107,10 @@ h2 {
   padding-top: 10px;
 }
 
+h3 {
+  text-align: center;
+}
+
 h4 {
   color: #666666;
   margin-top: 0;
@@ -169,6 +173,28 @@ a:link {
     margin: 10px auto;
   }
 
+  #profile-image {
+    float: right;
+  }
+
+  #profile-content p {
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  #profile-content {
+    float: left;
+  }
+
+
+  .column {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 
 
 }
