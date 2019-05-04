@@ -223,6 +223,7 @@ a:link {
   }
 
   #back-to-top {
+    display: none;
     visibility: hidden;
   }
 
