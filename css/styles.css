@@ -161,6 +161,12 @@ a:link {
   color: #7e7e7e;
 } 
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
@@ -181,6 +187,13 @@ a:link {
     display: none;
     visibility: hidden;
   }
+
+  #profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -197,17 +210,19 @@ a:link {
 
   #profile-image {
     float: right;
-    border: solid red 3px;
+    width: 50%;
   }
-
-  #profile-content p {
-    padding-top: 20px;
+  #profile-content {
+    float: left;
+    width: 47%;
+    margin-top: 30px;
     text-align: left;
   }
 
-  #profile-content {
-    float: left;
-    border: solid red 3px;
+  .profile-column {
+    display: block;
+    overflow: auto;
+    width: 100%;
   }
 
   .column {
@@ -238,7 +253,19 @@ a:link {
 
     #profile-image {
       float: right;
-      border: solid red 3px;
+      width: 50%;
+    }
+    #profile-content {
+      float: left;
+      width: 42%;
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .profile-column {
+      display: block;
+      overflow: auto;
+      width: 100%;
     }
 
     .nav      {
@@ -269,7 +296,7 @@ a:link {
     }
   
     #contact-text {
-      width: 60%;
+      width: 45%;
       display: inline-block;
     }
   
