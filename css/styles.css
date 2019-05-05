@@ -197,6 +197,7 @@ a:link {
 
   #profile-image {
     float: right;
+    border: solid red 3px;
   }
 
   #profile-content p {
@@ -206,6 +207,7 @@ a:link {
 
   #profile-content {
     float: left;
+    border: solid red 3px;
   }
 
   .column {
@@ -226,6 +228,55 @@ a:link {
     display: none;
     visibility: hidden;
   }
+
+  @media (min-width: 1024px) {
+    
+    header h4 {
+      float: left;
+      vertical-align: top;
+    }
+
+    #profile-image {
+      float: right;
+      border: solid red 3px;
+    }
+
+    .nav      {
+      float: right;
+      display: inline;
+      font-size: .9em;
+      padding-top: 10px;
+      background-color: #f3f3f3;
+    }
+
+    div li {
+      display: inline;
+      text-align: center;   
+    }
+  
+    ul {
+      width: 400px;
+      margin: 10px auto;
+    }
+      
+    .column {
+      display: inline-block;
+      width: 33%;
+      margin-right: -4px;
+      vertical-align: top;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  
+    #contact-text {
+      width: 60%;
+      display: inline-block;
+    }
+  
+    #back-to-top {
+      display: none;
+      visibility: hidden;
+    }
 
 
 }
