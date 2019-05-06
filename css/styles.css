@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+  .wrapper {
+    max-width: 80%;
+  }
+
   body {
     background-color: #f3f3f3;
 
@@ -180,6 +184,10 @@ a:link {
     display: none;
     visibility: hidden;
     }
+
+    .wrapper {
+      max-width: 90%;
+    }
   }
   
 @media (min-width: 320px) and (max-width: 767px) {
@@ -194,10 +202,19 @@ a:link {
     margin-right: auto;
     width: 90%;
   }
+
+  .wrapper {
+    max-width: 90%;
+  }
+
 }
 
 @media (min-width: 768px) {
   
+  .wrapper {
+    max-width: 90%;
+  }
+
   div li {
     display: inline;
     text-align: center;   
@@ -235,7 +252,7 @@ a:link {
   }
 
   #contact-text {
-    width: 60%;
+    width: 65%;
     display: inline-block;
   }
 
@@ -296,7 +313,7 @@ a:link {
     }
   
     #contact-text {
-      width: 45%;
+      width: 48%;
       display: inline-block;
     }
   
